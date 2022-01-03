@@ -1,13 +1,18 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import { Provider } from "react-redux";
+import { createStore } from "redux";
+import playerReducer from './mediaplayer/reducers/playerReducer';
 import './index.css';
-import App from './App';
 import reportWebVitals from './reportWebVitals';
+import MediaPlayer from "./mediaplayer/component/MediaPlayer";
+
+const player = createStore(playerReducer);
 
 ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
+      <Provider store={player}>
+        <MediaPlayer />
+      </Provider>,
   document.getElementById('root')
 );
 

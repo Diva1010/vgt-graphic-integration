@@ -1,0 +1,58 @@
+[
+  {
+    "ID":0,
+    "startTime": "00:00:01:00",
+    "endTime": "00:00:10:00",
+    "captionType": "Logo",
+    "captionData": {
+      "action": "on",
+      "location": "top left"
+    }
+  },
+  {
+    "ID":1,
+    "startTime": "00:00:02:00",
+    "endTime": "00:00:03:20",
+    "captionType": "nameSuper",
+    "captionData": {
+      "line1": "a rabbit hole"
+    }
+  },
+  {
+    "ID":2,
+    "startTime": "00:00:04:00",
+    "endTime": "00:00:05:10",
+    "captionType": "nameSuper",
+    "captionData": {
+      "line1": "a tree",
+      "line2": "(a big one)"
+    }
+  },
+  {
+    "ID":3,
+    "startTime": "00:00:06:00",
+    "endTime": "00:00:06:20",
+    "captionType": "nameSuper",
+    "captionData": {
+      "line1": "some rocks"
+    }
+  },
+  {
+    "ID":4,
+    "startTime": "00:00:07:00",
+    "endTime": "00:00:08:14",
+    "captionType": "nameSuper",
+    "captionData": {
+      "line1": "some grass"
+    }
+  },
+  {
+    "ID":5,
+    "startTime": "00:00:09:00",
+    "endTime": "00:00:10:00",
+    "captionType": "title",
+    "captionData": {
+      "text": "the end"
+    }
+  }
+]

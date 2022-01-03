@@ -1,0 +1,57 @@
+.mediaHolder {
+    width: 800px;
+    height: 500px;
+    position: absolute;
+    z-index: 1;
+}
+
+.player {
+    top: 0
+}
+
+.caption {
+    position: absolute;
+    top: 40px;
+    z-index: 2;
+    height: 100%;
+}
+
+.logo {
+    background-image: url('https://static.files.bbci.co.uk/orbit/8161b75793cc3c38d814e1a4a19a2f6a/img/blq-orbit-blocks_grey.svg');
+    background-size: contain;
+    top: 0px;
+    left: 113px;
+    height: 70px;
+    width: 105px;
+    background-repeat: no-repeat;
+    top:0;
+    left:10px;
+}
+
+.nameSupper {
+    position: absolute;
+    width: max-content;
+    bottom: 100px;
+    font-weight: bold;
+    font-size: 30px;
+    padding: 5px;
+    color: #fff;
+    border-left: 6px solid red;
+    height: auto;
+    margin-left:5px;
+    min-height: 0px;
+}
+
+.title {
+    position: absolute;
+    width: max-content;
+    bottom: 50%;
+    font-weight: bold;
+    font-size: 30px;
+    padding: 5px;
+    color: #fff;
+    border-left: 6px solid red;
+    height: auto;
+    margin-left:5px;
+    min-height: 0px;
+}
